@@ -13,11 +13,9 @@ Iniciar al alumnado en el desarrollo colaborativo de un proyecto software realis
 
 ### 1. Configuración inicial
 Cada alumno debe asegurarse de tener:
-- Visual Studio Code instalado.
+- Git instalado.
 - Una cuenta activa en GitHub.
-- Antigravity instalado y operativo en VS Code.
-
-Los pasos concretos de instalación y configuración no se detallan deliberadamente. El alumnado deberá localizarlos, probarlos y resolverlos en grupo, documentando las dificultades encontradas.
+- Antigravity instalado.
 
 ---
 
@@ -44,7 +42,7 @@ Los pasos concretos de instalación y configuración no se detallan deliberadame
 ---
 
 ### 4. Primer contacto con el flujo de trabajo
-1. Solicitar a Antigravity una primera modificación sencilla del proyecto (por ejemplo, generar una estructura HTML básica).
+1. Solicitar a Antigravity una primera modificación sencilla del proyecto (por ejemplo, generar la estructura básica del proyecto, directorios y archivos HTML y CSS).
 2. Realizar el primer commit:
 - Usar el apartado *Source Control* de VS Code.
 - Escribir un mensaje de commit claro y descriptivo.
