@@ -2,7 +2,7 @@
 marp: true
 ---
 
-# Práctica: Desarrollo colaborativo de un videojuego web con metodologías ágiles
+# Práctica: Desarrollo colaborativo de un videojuego web usando metodologías ágiles
 
 ## Objetivo de la práctica
 Iniciar al alumnado en el desarrollo colaborativo de un proyecto software realista utilizando **GitHub como control de versiones**, **VS Code como entorno de desarrollo** y **Antigravity como asistente de generación de código**, aplicando una organización basada en el método **KANBAN**.
@@ -26,8 +26,8 @@ Cada alumno debe asegurarse de tener:
 
 ---
 
-### 3. Configuración de git:
-- **Live Server** para visualizar los cambios en tiempo real.
+### 3. Configuración:
+- Instalar extensión **Live Server** en el IDE para visualizar los cambios en tiempo real.
 - **Git** desde la consola de VS Code:
  ```
  git config --global user.name "[username]"
@@ -61,7 +61,6 @@ Cada alumno debe asegurarse de tener:
 - Grupos de **4 personas**.
 - Cada grupo debe acordar:
 - Diseño y reparto de tareas.
-- Estrategia de comunicación y coordinación.
 
 ---
 
@@ -71,9 +70,7 @@ Cada alumno debe asegurarse de tener:
 - Menú principal desde el que se accede al juego.
 - Al principio, el jugador dispone de **4 vidas**:
 - Un juego principal que encadena **microjuegos**
- ```
-Videojuego de muy corta duración, con una única mecánica y objetivo que debe completarse en un tiempo limitado.
- ```
+> Videojuego de muy corta duración, con una única mecánica y objetivo que debe completarse en un tiempo limitado.
 - Cada fallo en un microjuego resta una vida.
 - Debe contener 12 microjuegos diferentes. 
 - Al perder todas las vidas, el juego termina.
@@ -92,23 +89,24 @@ Cada microjuego debe cumplir los siguientes criterios:
 
 ### Microjuegos
 - Un ejemplo de microjuego:
- ```
-Título: "¡No malgastes agua!"
-La interfaz indica: "¡Recoge!"
-Un vaso sustituye al cursor, el jugador debe moverlo para recoger partículas que caen de arriba a abajo de la pantalla, en forma de gotas de agua durante un tiempo limitado (10 segundos). Si el tiempo termina y el vaso no se ha llenado, el jugador pierde.
- ```
+> Título: "¡No malgastes agua!"
+> La interfaz indica: "¡Recoge!"
+> Un vaso sustituye al cursor, el jugador debe moverlo para recoger partículas que caen de arriba a abajo de la pantalla, en forma de gotas de agua durante un tiempo limitado (10 segundos). Si el tiempo termina y el vaso no se ha llenado, el jugador pierde.
 - Al fallar el microjuego, el juagor pierde una vida. Si todavía conserva alguna vida, continúa al siguiente microjuego.
 - Al completar exitosamente, aumenta el contador.
+
+---
+
+### Microjuegos
 - Si el contador supera los 10 puntos, al enfrentar el mismo microjuego, el reto debe ser más difícil.
 - Al superar los 20 puntos, la dificultad debe volver a aumentar. 
-```
-Para aumentar la dificultad, por ejemplo, el vaso debe ser sensiblemente más grande, las gotas de agua más escasas o rápidas y el tiempo para recoger agua más corto.
-```
+> Para aumentar la dificultad, por ejemplo, el vaso debe ser sensiblemente más grande, las gotas de agua más escasas o rápidas y el tiempo para recoger agua más corto.
+
 ---
 
 ### Temática del juego
 - Cada microjuego debe estar relacionado con uno o varios **Objetivos de Desarrollo Sostenible**.
-![Objetivos de Desarrollo Sostenible](/imgs/ODS.jpg)
+!(/imgs/ODS.jpg)
 
 ---
 
@@ -124,13 +122,13 @@ Para aumentar la dificultad, por ejemplo, el vaso debe ser sensiblemente más gr
 
 ### Control de versiones
 - Al comenzar una tarea se debe:
-  > Asignarla en Trello al integrante del grupo correspondiente y pasarla de la columna *backlog* a *in progress*.
-  > Crear una rama con el esquema: "features/[nombre-de-la-tarea]"
-  > Realizar los cambios necesarios.
-  > Deberían hacerse commits cada vez que se añadan cambios en la funcionalidad.
-  > Al terminar la tarea, se debe mover a tarea a la columna *validate*.
-  > Otro integrante debe validarla, comprobando que no haya problemas de funcionalidad tras hacer merge de *main* en la rama de desarrollo.
-  > Una vez validada, se mergea la rama de desarrollo a *main* y se mueve la tarea a *done*.
+  -- Asignarla en Trello al integrante del grupo correspondiente y pasarla de la columna *backlog* a *in progress*.
+  -- Crear una rama con el esquema: "features/[nombre-de-la-tarea]"
+  -- Realizar los cambios necesarios.
+  -- Deberían hacerse commits cada vez que se añadan cambios en la funcionalidad.
+  -- Al terminar la tarea, se debe mover a tarea a la columna *validate*.
+  -- Otro integrante debe validarla, comprobando que no haya problemas de funcionalidad tras hacer merge de *main* en la rama de desarrollo.
+  -- Una vez validada, se mergea la rama de desarrollo a *main* y se mueve la tarea a *done*.
 
 ---
 
