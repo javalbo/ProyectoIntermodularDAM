@@ -121,13 +121,13 @@ Cada microjuego debe cumplir los siguientes criterios:
 
 ### Control de versiones
 - Al comenzar una tarea se debe:
-  · **Asignarla en Trello** al integrante del grupo correspondiente y pasarla de la columna *backlog* a *in progress*.
-  · **Crear una rama** con el esquema: "features/[nombre-de-la-tarea]"
-  · Realizar los cambios necesarios.
-  · **Hacer commit** cada vez que se añadan *cambios significativos* en la funcionalidad.
-  · Al terminar la tarea, se debe mover a tarea a la columna *validate*.
-  · Otro integrante debe validarla, comprobando que no haya problemas de funcionalidad haciendo merge de *main* en la rama de desarrollo.
-  · Una vez validada, se debe hacer merge de la rama de desarrollo a *main* y se mueve la tarea a *done*.
+  1. **Asignarla en Trello** al integrante del grupo correspondiente y pasarla de la columna *backlog* a *in progress*.
+  2. **Crear una rama** con el esquema: "features/[nombre-de-la-tarea]"
+  3. Realizar los cambios necesarios.
+  4. **Hacer commit** cada vez que se añadan *cambios significativos* en la funcionalidad.
+  5. Al terminar la tarea, se debe mover a tarea a la columna *validate*.
+  6. Otro integrante debe validarla, comprobando que no haya problemas de funcionalidad haciendo merge de *main* en la rama de desarrollo.
+  7. Una vez validada, se debe hacer merge de la rama de desarrollo a *main* y se mueve la tarea a *done*.
 
 ---
 
@@ -137,8 +137,18 @@ Cada microjuego debe cumplir los siguientes criterios:
 - Un **commit** de dicha rama podria incluir el mensaje "se añade dificultad media" y describirse como "ahora caen menos gotas y más rápido a partir de los 10 puntos"
 
 ---
+## Parte 4. Documentación
+- Todo el proceso debe documentarse e incluir diferentes páginas web que expliquen cómo se ha hecho el proyecto
+- Ejemplos de documentación que debe incluirse:
+  - Definición del proyecto
+  - Explicación de la mecánica de los minijuegos
+  - Explicación de la organización del trabajo, quién ha hecho cada tarea, quién la ha validado, etc
+  - Incluir link a Trello y capturas de pantalla del mismo 
+  
+---
 
-## Entrega
+## 5. Entrega
+// Esto lo dejaría para después de hecho el proyecto
 - Activar **GitHub Pages**:
    - Rama: `main`
    - Carpeta: raíz del proyecto.
@@ -146,9 +156,9 @@ Cada microjuego debe cumplir los siguientes criterios:
 
 ---
 
-## Ampliación (opcional)
+## 6. Ampliación (opcional)
 - Investigar el uso de un servidor para permitir la competición entre varios jugadores:
-- Ranking de puntuaciones.
-- Resultados compartidos.
-- Multijugador básico.
-- Crear elementos gráficos y añadirlos al juego. 
+  - Ranking de puntuaciones.
+  - Resultados compartidos.
+  - Multijugador básico.
+  - Crear elementos gráficos y añadirlos al juego. 
