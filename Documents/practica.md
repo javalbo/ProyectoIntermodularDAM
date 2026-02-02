@@ -20,15 +20,15 @@ Cada alumno debe asegurarse de tener:
 ---
 
 ### 2. Creación del repositorio
-- Crear un repositorio nuevo en GitHub.
-- Clonar el repositorio utilizando Antigravity.
-- Abrir el proyecto usando el IDE de Antigravity.
+- Crea un repositorio nuevo en GitHub.
+- Clona el repositorio utilizando Antigravity.
+- Abre el proyecto usando el IDE de Antigravity.
 
 ---
 
 ### 3. Configuración:
-- Instalar extensión **Live Server** en el IDE para visualizar los cambios en tiempo real.
-- **Git** desde la consola de VS Code:
+- Instala extensión **Live Server** en el IDE para visualizar los cambios en tiempo real.
+- Configura **Git** desde la consola de VS Code:
  ```
  git config --global user.name "[username]"
  git config --global user.email "[your.email@example.com]"
@@ -42,8 +42,8 @@ Cada alumno debe asegurarse de tener:
 3. Para hacer *commit*:
 - Usa el apartado *Source Control* del IDE.
 - Selecciona los cambios (asegúrate de que contiene el archivo de texto).
-- Escribe un mensaje de commit claro y descriptivo.
-- Ejecuta *commit* para registrar los cambios.
+- Escribe un mensaje y descripción claros.
+- Haz *commit* para registrar los cambios.
 4. Una vez se haya procesado el commit, haz *push* para que se suba al repositorio. 
 
 ---
@@ -59,8 +59,7 @@ Cada alumno debe asegurarse de tener:
 
 ### Organización del trabajo
 - Grupos de **4 personas**.
-- Cada grupo debe acordar:
-- Diseño y reparto de tareas.
+- Cada grupo debe acordar el diseño y reparto de tareas.
 
 ---
 
@@ -69,12 +68,12 @@ Cada alumno debe asegurarse de tener:
 ### Diseño de juego
 - Menú principal desde el que se accede al juego.
 - Al principio, el jugador dispone de **4 vidas**:
-- Un juego principal que encadena **microjuegos**
+- El juego principal que encadena **microjuegos**
 > Videojuego de muy corta duración, con una única mecánica y objetivo que debe completarse en un tiempo limitado.
 - Cada fallo en un microjuego resta una vida.
 - Debe contener 12 microjuegos diferentes. 
 - Al perder todas las vidas, el juego termina.
-- Cada microjuego superado añade una unidad al contador de puntuación.
+- La puntuación aumenta con cada microjuego superado.
 
 ---
 
@@ -92,15 +91,15 @@ Cada microjuego debe cumplir los siguientes criterios:
 > Título: "¡No malgastes agua!"
 > La interfaz indica: "¡Recoge!"
 > Un vaso sustituye al cursor, el jugador debe moverlo para recoger partículas que caen de arriba a abajo de la pantalla, en forma de gotas de agua durante un tiempo limitado (10 segundos). Si el tiempo termina y el vaso no se ha llenado, el jugador pierde.
-- Al fallar el microjuego, el juagor pierde una vida. Si todavía conserva alguna vida, continúa al siguiente microjuego.
+- Al fallar el microjuego, el jugador pierde una vida. Si todavía conserva alguna vida, continúa al siguiente microjuego.
 - Al completar exitosamente, aumenta el contador.
 
 ---
 
 ### Microjuegos
-- Si el contador supera los 10 puntos, al enfrentar el mismo microjuego, el reto debe ser más difícil.
+- Tras superar 10, al enfrentar un mismo microjuego, el reto debe ser más difícil.
 - Al superar los 20 puntos, la dificultad debe volver a aumentar. 
-> Para aumentar la dificultad, por ejemplo, el vaso debe ser sensiblemente más profundo o estrecho, las gotas de agua más escasas o rápidas y el tiempo para recoger agua más corto.
+> Para aumentar la dificultad, por ejemplo, el vaso puede ser sensiblemente más profundo o estrecho, las gotas de agua más escasas o rápidas y el tiempo para recoger agua más corto.
 
 ---
 
@@ -114,7 +113,7 @@ Cada microjuego debe cumplir los siguientes criterios:
 
 ### Planificación
 - Crear un *Trello* con 4 columnas: *Backlog*, *In progress*, *Validate*, *Done*
-- Realizar un documento de diseño o *ten pages* que contenga la documentación sobre los microjuegos a desarrollar.
+- Realizar un documento de diseño o *ten pages* que contenga la documentación sobre el videojuego a desarrollar.
 - Crear las tareas esperables a partir del documento de diseño en el backlog. 
 - Diario de desarrollo: Incluid información sobre el trello, reparto de tareas, progreso y dificultades en el desarrollo etc. 
 
@@ -127,15 +126,15 @@ Cada microjuego debe cumplir los siguientes criterios:
   · Realizar los cambios necesarios.
   · **Hacer commit** cada vez que se añadan *cambios significativos* en la funcionalidad.
   · Al terminar la tarea, se debe mover a tarea a la columna *validate*.
-  · Otro integrante debe validarla, comprobando que no haya problemas de funcionalidad tras hacer merge de *main* en la rama de desarrollo.
-  · Una vez validada, se mergea la rama de desarrollo a *main* y se mueve la tarea a *done*.
+  · Otro integrante debe validarla, comprobando que no haya problemas de funcionalidad haciendo merge de *main* en la rama de desarrollo.
+  · Una vez validada, se debe hacer merge de la rama de desarrollo a *main* y se mueve la tarea a *done*.
 
 ---
 
 ### Ejemplo de planificación
 - Una **tarea** podría ser: *Implementar microjuego "¡No malgastes agua!"*
 - La **rama** en la que se desarrollará deberia llamarse "feartures/microjuego-no-malgastes-agua"
-- Un **commit** de dicha rama podria titularse "se añade dificultad media" y describirse como "ahora las gotas caen menos y más rápido a partir de los 10 puntos"
+- Un **commit** de dicha rama podria incluir el mensaje "se añade dificultad media" y describirse como "ahora caen menos gotas y más rápido a partir de los 10 puntos"
 
 ---
 
