@@ -19,15 +19,14 @@ Cada alumno debe asegurarse de tener:
 
 ---
 
-### 2. Creación y conexión del repositorio
-1. Crear un repositorio nuevo en GitHub.
+### 2. Creación del repositorio
+- Crear un repositorio nuevo en GitHub.
+- Clonar el repositorio utilizando Antigravity.
+- Abrir el proyecto usando el IDE de Antigravity.
 
 ---
 
-### 3. Integración con Antigravity y VS Code
-- Clonar el repositorio utilizando Antigravity.
-- Abrir el proyecto en Visual Studio Code.
-- Configurar:
+### 3. Configuración de git:
 - **Live Server** para visualizar los cambios en tiempo real.
 - **Git** desde la consola de VS Code:
  ```
@@ -38,14 +37,21 @@ Cada alumno debe asegurarse de tener:
 ---
 
 ### 4. Primer contacto con el flujo de trabajo
-1. Solicitar a Antigravity una primera modificación sencilla del proyecto (por ejemplo, generar la estructura básica del proyecto, directorios y archivos HTML y CSS).
-2. Realizar el primer commit:
-- Usar el apartado *Source Control* de VS Code.
-- Escribir un mensaje de commit claro y descriptivo.
-- Ejecutar *commit & push*.
-3. Configurar el acceso a GitHub:
-- Generar un **Personal Access Token** (usando la plantilla sugerida).
-- Copiar el token (`ghp_…`) y pegarlo cuando VS Code lo solicite.
+1. Crea un archivo de texto de prueba. Escribe en él, por ejemplo, tu nombre.
+2. Crea una rama de prueba.
+3. Para hacer *commit*:
+- Usa el apartado *Source Control* del IDE.
+- Selecciona los cambios (asegúrate de que contiene el archivo de texto).
+- Escribe un mensaje de commit claro y descriptivo.
+- Ejecuta *commit* para registrar los cambios.
+4. Una vez se haya procesado el commit, haz *push* para que se suba al repositorio. 
+
+---
+
+### Configuración del Personal Access Token
+
+- Generar un **Personal Access Token** en GitHub (usando la plantilla sugerida).
+- Copiaremos el token (`ghp_…`) para pegarlo cuando el IDE se solicite.
 
 ---
 
@@ -54,20 +60,23 @@ Cada alumno debe asegurarse de tener:
 ### Organización del trabajo
 - Grupos de **4 personas**.
 - Cada grupo debe acordar:
-- Reparto de tareas.
-- Normas básicas de commits.
+- Diseño y reparto de tareas.
 - Estrategia de comunicación y coordinación.
 
 ---
 
 ## Requisitos del proyecto
 
-### Estructura general
+### Diseño de juego
 - Menú principal desde el que se accede al juego.
-- Un juego principal que encadena **12 microjuegos**:
-- El jugador dispone de **4 vidas**:
-- Cada fallo resta una vida.
-- Al perder todas las vidas, el juego finaliza.
+- Al principio, el jugador dispone de **4 vidas**:
+- Un juego principal que encadena **microjuegos**
+ ```
+Videojuego de muy corta duración, con una única mecánica y objetivo que debe completarse en un tiempo limitado.
+ ```
+- Cada fallo en un microjuego resta una vida.
+- Debe contener 12 microjuegos diferentes. 
+- Al perder todas las vidas, el juego termina.
 
 ---
 
@@ -76,19 +85,16 @@ Cada microjuego debe cumplir los siguientes criterios:
 - Un objetivo único y claramente definido.
 - Un tiempo límite para completarlo.
 - Interacción directa mediante ratón y/o teclado.
-- Dificultad basada en físicas simples o en control preciso.
 
-Ejemplo orientativo (no obligatorio):
-> Arrastrar con el ratón una cerilla y encenderla antes de que se agote el tiempo. El sistema de físicas dificulta la acción. Si el tiempo se acaba sin cumplir el objetivo, el jugador pierde una vida y continúa con el siguiente microjuego.
+Ejemplo orientativo:
+> Un vaso sustituye al cursor, el jugador debe moverlo para recoger partículas que caen de arriba a abajo de la pantalla, en forma de gotas de agua durante un tiempo limitado. Si el tiempo termina y el vaso no se ha llenado, el jugador pierde.
+> Al fallar el microjuego, el juagor pierde una vida. Si todavía conserva alguna vida, continúa al siguiente microjuego. 
 
 ---
 
 ### Contenido educativo
 - Cada microjuego debe estar relacionado con uno o varios **Objetivos de Desarrollo Sostenible**.
-- Se valorará especialmente la relación con:
-- Energía sostenible.
-- Consumo responsable.
-- Protección del medio ambiente.
+![Objetivos de Desarrollo Sostenible](/imgs/ODS.jpg)
 
 ---
 
