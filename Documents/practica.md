@@ -5,7 +5,7 @@ marp: true
 # Práctica: Desarrollo colaborativo de un videojuego web con metodologías ágiles
 
 ## Objetivo de la práctica
-Iniciar al alumnado en el desarrollo colaborativo de un proyecto software realista utilizando **GitHub como control de versiones**, **VS Code como entorno de desarrollo** y **Antigravity como asistente de generación de código**, aplicando una organización básica inspirada en **SCRUM**.
+Iniciar al alumnado en el desarrollo colaborativo de un proyecto software realista utilizando **GitHub como control de versiones**, **VS Code como entorno de desarrollo** y **Antigravity como asistente de generación de código**, aplicando una organización básica inspirada en **KANBAN**.
 
 ---
 
@@ -20,11 +20,7 @@ Cada alumno debe asegurarse de tener:
 ---
 
 ### 2. Creación y conexión del repositorio
-1. Crear un repositorio nuevo en GitHub (nombre libre).
-2. Activar **GitHub Pages**:
-   - Rama: `main`
-   - Carpeta: raíz del proyecto.
-3. Comprobar que la web es accesible desde la siguiente URL:https://USUARIO.github.io/NOMBRE_DEL_REPO/
+1. Crear un repositorio nuevo en GitHub.
 
 ---
 
@@ -56,7 +52,7 @@ Cada alumno debe asegurarse de tener:
 ## Parte 2. Inicio del proyecto
 
 ### Organización del trabajo
-- Grupos de **3 personas**.
+- Grupos de **4 personas**.
 - Cada grupo debe acordar:
 - Reparto de tareas.
 - Normas básicas de commits.
@@ -69,7 +65,6 @@ Cada alumno debe asegurarse de tener:
 ### Estructura general
 - Menú principal desde el que se accede al juego.
 - Un juego principal que encadena **12 microjuegos**:
-- 4 microjuegos diseñados por cada integrante.
 - El jugador dispone de **4 vidas**:
 - Cada fallo resta una vida.
 - Al perder todas las vidas, el juego finaliza.
@@ -122,6 +117,14 @@ Ejemplo orientativo (no obligatorio):
 - Frecuencia de commits.
 - Claridad de los mensajes.
 - Coordinación entre los miembros del grupo.
+
+---
+
+## Entrega
+- Activar **GitHub Pages**:
+   - Rama: `main`
+   - Carpeta: raíz del proyecto.
+- Comprobar que la web es accesible desde la siguiente URL:https://USUARIO.github.io/NOMBRE_DEL_REPO/
 
 ---
 
