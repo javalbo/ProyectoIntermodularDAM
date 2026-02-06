@@ -5,7 +5,7 @@ marp: true
 # Práctica: Desarrollo colaborativo de un videojuego web usando metodologías ágiles
 
 ## Objetivo de la práctica
-Iniciar al alumnado en el desarrollo colaborativo de un proyecto software realista utilizando **GitHub como control de versiones**, **VS Code como entorno de desarrollo** y **Antigravity como asistente de generación de código**, aplicando una organización basada en el método **KANBAN**.
+Esta práctica sirve como iniciación al el desarrollo colaborativo de un proyecto software realista utilizando **GitHub como control de versiones**, **VS Code como entorno de desarrollo**, aplicando una organización basada en el método **KANBAN**.
 
 ---
 
@@ -40,10 +40,10 @@ Cada alumno debe asegurarse de tener:
 1. Crea un archivo de texto de prueba. Escribe en él, por ejemplo, tu nombre.
 2. Crea una rama de prueba.
 3. Para hacer *commit*:
-- Usa el apartado *Source Control* del IDE.
-- Selecciona los cambios (asegúrate de que contiene el archivo de texto).
-- Escribe un mensaje y descripción claros.
-- Haz *commit* para registrar los cambios.
+ - Usa el apartado *Source Control* del IDE.
+ - Selecciona los cambios (asegúrate de que contiene el archivo de texto).
+ - Escribe un mensaje y descripción claros.
+ - Haz *commit* para registrar los cambios.
 4. Una vez se haya procesado el commit, haz *push* para que se suba al repositorio. 
 
 ---
@@ -153,6 +153,10 @@ Cada microjuego debe cumplir los siguientes criterios:
    - Rama: `main`
    - Carpeta: raíz del proyecto.
 - Comprobar que la web es accesible desde la siguiente URL:https://USUARIO.github.io/NOMBRE_DEL_REPO/
+
+Deberéis entregar los links para acceder al producto final del proyecto: 
+- Página web y juego en github pages
+- Repositorio de código público
 
 ---
 
