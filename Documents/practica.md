@@ -12,29 +12,23 @@ footer: SERIOUS GAMES POR UN DESARROLLO SOSTENIBLE. Javier Albors Caño. This wo
 
 <style>
   h1 {
-    color: #ef6ddb;
+    color: #dc27cd;
     font-family: 'Public Pixel';
     text-align: center;
     text-shadow: 
-      4px 4px 0 #00192e,
-     -2px -2px 0 #00192e,  
-      2px -2px 0 #00192e,
-      -2px 2px 0 #00192e,
-       2px 2px 0 #00192e;
+      2px 2px 5px #fefadb;
   }
   h2 {
-    color: #5fb6ff;
+    color: #0087ff;
     font-family: 'Public Pixel';
     text-shadow: 
-      4px 4px 0 #00192e,
-     -2px -2px 0 #00192e,  
-      2px -2px 0 #00192e,
-      -2px 2px 0 #00192e,
-       2px 2px 0 #00192e;
+      2px 2px 5px #fefadb;
   }
   h3 {
     color: #00549c;
     font-family: 'Public Pixel';
+    text-shadow: 
+      2px 2px 5px #fefadb;
   }
 </style>
 
