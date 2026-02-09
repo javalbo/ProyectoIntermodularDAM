@@ -113,7 +113,7 @@ Cada microjuego debe cumplir los siguientes criterios:
 
 ### Temática del juego
 - Cada microjuego debe estar relacionado con uno o varios **Objetivos de Desarrollo Sostenible**.
-![h:450](../imgs/ODS.jpg)
+![h:450](../imgs/ODS.png)
 
 
 ---
