@@ -1,39 +1,7 @@
 ---
 marp: true
 
-backgroundImage: url("../imgs/bg.png")
-backgroundSize: cover
-backgroundPosition: center
-
 ---
-
-<style>
-  h1 {
-    color: #42b1ff;
-    font-family: 'Public Pixel';
-    text-align: center;
-    text-shadow: 
-      4px 4px 0 #00192e,
-     -2px -2px 0 #00192e,  
-      2px -2px 0 #00192e,
-      -2px 2px 0 #00192e,
-       2px 2px 0 #00192e;
-  }
-  h2 {
-    color: #acf0ff;
-    font-family: 'Public Pixel';
-    text-shadow: 
-      4px 4px 0 #00192e,
-     -2px -2px 0 #00192e,  
-      2px -2px 0 #00192e,
-      -2px 2px 0 #00192e,
-       2px 2px 0 #00192e;
-  }
-  h3 {
-    color: #00192e;
-    font-family: 'Public Pixel';
-  }
-</style>
 
 # SERIOUS GAMES POR UN DESARROLLO SOSTENIBLE
 ## Desarrollo colaborativo de un videojuego web educativo usando metodologías ágiles
